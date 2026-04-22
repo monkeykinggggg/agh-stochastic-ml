@@ -1,4 +1,5 @@
-# CMA-ES: Covariance Matrix Adaptation Evolution Strategy
+# Lab 8 — CMA-ES
+
 *Goal:* To understand the basic idea behind CMA-ES, a powerful algorithm for finding the minimum (or maximum) of complex functions, especially when we don't know the gradient.
 
 ## What are Evolutionary Algorithms (EAs)?
@@ -22,24 +23,25 @@ The "magic" of CMA-ES lies in how it adapts its search strategy. It uses a multi
 ![CMA-ES Adaptation](https://lilianweng.github.io/posts/2019-09-05-evolution-strategies/CMA-ES-illustration.png)
 *Images: Visualization of how CMA-ES adapts its search distribution to the landscape of the objective function.*
 
-
-
 ![CMA-ES Pseudocode](https://lilianweng.github.io/posts/2019-09-05-evolution-strategies/CMA-ES-algorithm.png)
 *Image: Pseudocode of CMA-ES algorithm.*
 
-## Strengths of CMA-ES:
+## Strengths of CMA-ES
+
 - Very effective on non-linear, non-convex, rugged, ill-conditioned problems.
 - Handles correlations between variables automatically.
 - Robust to noise in the function evaluation.
 - Requires relatively few parameter settings (defaults often work well).
 - Doesn't need the function's gradient/derivative.
 
-## Weaknesses of CMA-ES:
+## Weaknesses of CMA-ES
+
 - Computationally more expensive per generation than simpler EAs due to matrix operations (especially in high dimensions).
 - Can be slower than gradient-based methods if gradients are available and reliable.
-- Performance can degrade significantly in very high dimensions (e.g., >>100).
+- Performance can degrade significantly in very high dimensions (e.g., >>100)..
 
 ## Recommended Reading
+
 1. Hansen, Nikolaus. [The CMA evolution strategy: A tutorial.](https://arxiv.org/abs/1604.00772)
 2. Lil'Log [Evolution Strategies](https://lilianweng.github.io/posts/2019-09-05-evolution-strategies/)
 3. Such, Felipe Petroski, et al. [Deep neuroevolution: Genetic algorithms are a competitive alternative for training deep neural networks for reinforcement learning.](https://arxiv.org/abs/1712.06567)
