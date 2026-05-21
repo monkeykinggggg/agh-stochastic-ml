@@ -21,8 +21,7 @@ This course explores various problems at the intersection of optimization and ma
 | 9 | Reviewing a Paper With (and Without) an LLM | Group lab with no code. Each group reads a nature-inspired ML paper, runs an LLM reviewer under a neutral and an aggressive prompt, compares verdicts, and presents a conference-style accept/reject decision. Probes how good — and how prompt-sensitive — LLM peer reviews are. |
 | 10 | Differential Evolution | Implements Differential Evolution from scratch. |
 | 11 | LLM × EA | Evolution of Heuristics |
-| 12 | Cuckoo Search | Explores the common issue of seemingly new optimization algorithms that may not offer genuinely novel ideas, focusing on Cuckoo Search and its critical analysis. |
-| 13 | Multiobjective Optimization | Demonstrates multiobjective optimization techniques to find optimal asset allocations for investment portfolios. |
+| 12 | Multiobjective Optimization | Demonstrates multiobjective optimization techniques to find optimal asset allocations for investment portfolios. |
 
 ## Issues and Contributions
 
@@ -32,5 +31,3 @@ If you find any mistakes or have suggestions for improvements:
 2. **Submit a Pull Request**: If you have a fix or improvement, feel free to fork the repository and submit a pull request with your changes.
 
 Your contributions help improve the quality of these materials for all students.
-
-
